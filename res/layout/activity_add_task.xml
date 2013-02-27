@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6b6b6"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/addTask_editTextTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addTask_textViewTaskName"
+        android:ems="10"
+        android:hint="@string/addTask_tasknamehint"
+        android:inputType="text"
+        android:label="@string/addTask_AddTaskLabel" >
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/addTask_editTextTaskDisc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addTask_textViewTaskDisc"
+        android:ems="10"
+        android:hint="@string/addTask_taskdischint"
+        android:inputType="text" >
+    </EditText>
+
+    <DatePicker
+        android:id="@+id/addTask_datePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addTask_editTextTaskDisc"
+        android:layout_toRightOf="@+id/addTask_textViewTaskDisc" />
+
+    <Button
+        android:id="@+id/addTask_btnChangeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/addTask_editTextTaskDisc"
+        android:text="@string/addTask_DatePicker" />
+
+    <TextView
+        android:id="@+id/addTask_textViewTaskDisc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/addTask_editTextTaskName"
+        android:text="@string/addTask_discription"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/addTask_textViewTaskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/addTask_task"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/addTask_buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addTask_btnChangeDate"
+        android:layout_alignBottom="@+id/addTask_btnChangeDate"
+        android:layout_alignParentLeft="true"
+        android:text="@string/addTask_addbutton" />
+
+    <Button
+        android:id="@+id/add_task_mapbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addTask_editTextTaskDisc"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/addTask_textViewTaskDisc"
+        android:text="@string/addTask_mapbutton" />
+
+</RelativeLayout>

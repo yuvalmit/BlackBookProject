@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6b6b6" >
+
+	<ListView
+	    android:id="@+id/task_list_listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:paddingTop="10dip"
+	    android:layout_below="@+id/task_list_addButton" >
+
+	</ListView>
+
+	<Button
+	    android:id="@+id/task_list_addButton"
+	    style="android:buttonStyle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/addTask" />
+
+	<Button
+	    android:id="@+id/task_list_deletebutton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/task_list_delete_button" />
+
+	<TextView
+	    android:id="@+id/task_list_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:layout_alignBaseline="@+id/task_list_addButton"
+	    android:layout_alignBottom="@+id/task_list_addButton"
+	    android:layout_toLeftOf="@+id/task_list_addButton"
+	    android:layout_toRightOf="@+id/task_list_deletebutton"
+	    android:hint="@string/task_list_name"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlackBook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="mainAddButton">Add Contact</string>
+    <string name="title_activity_add_contact">AddContactActivity</string>
+    <string name="add_addContact">Add contact</string>
+    <string name="add_chooseButton">Choose contact</string>
+    <string name="contantDes">Contact Image</string>
+    <string name="con_hint">Name</string>
+    <string name="title_activity_task_list">TaskListActivity</string>
+    <string name="delTask">DEL</string>
+    <string name="task_list_name">Name</string>
+    <string name="addTask">Add Task</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+    <string name="addTask_tasknamehint">Task Title</string>
+    <string name="addTask_taskdischint">Task Description</string>
+    <string name="addTask_DatePicker">Set alarm</string>
+    <string name="addTask_delTask">Del</string>
+    <string name="addTask_AddTaskLabel">Task</string>
+    <string name="addTask_task">Task</string>
+    <string name="addTask_discription">Description</string>
+    <string name="addTask_addbutton">Add</string>
+    <string name="task_list_delete_button">Delete</string>
+    <string name="empty"></string>
+    <string name="title_activity_edit_task">EditTask</string>
+    <string name="edit_task_savebutton">Save</string>
+    <string name="edit_task_cancelbutton">Cancel</string>
+    <string name="edit_task_titlehint">Title</string>
+    <string name="edit_task_dishint">Description</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="main_mapbutton">Map</string>
+    <string name="addTask_mapbutton">Map</string>
+    <string name="edit_task_titlelable">Title</string>
+    <string name="edit_task_dislable">Description</string>
+    <string name="task_list_done">Done</string>
+    <string name="main_gridview_lable">Choose Contact to manage</string>
+
+</resources>

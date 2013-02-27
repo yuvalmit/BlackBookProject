@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6b6b6"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/main_addContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/mainAddButton" />
+
+    <GridView
+        android:id="@+id/main_contactsGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_addContact"
+        android:layout_marginTop="100dip"
+        android:layout_marginBottom="50dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:padding="5dip"
+        android:gravity="center_horizontal"
+        android:background="@drawable/roundcorners"
+        android:numColumns="3" >
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/main_addContact"
+        android:layout_marginTop="44dp"
+        android:gravity="center_horizontal"
+        android:text="@string/main_gridview_lable"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

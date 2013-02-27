@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     >
+
+    
+    
+    <TextView 
+        android:id="@+id/task_item_name"
+		android:textSize="20sp" 
+		android:textStyle="bold" 
+		android:textColor="#FFFFFF" 
+		android:layout_height="30dp"
+		android:layout_width="match_parent"
+		android:gravity="right" />
+
+	<TextView
+	    android:id="@+id/task_item_dis"
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:layout_below="@id/task_item_name"
+	    android:textColor="#FFFFFF" 
+	    android:gravity="right" />
+	
+	
+	<TextView
+	    android:id="@+id/task_item_enddate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="20dp"
+	    android:textColor="#FFFFFF" 
+	    android:layout_below="@id/task_item_dis" />
+
+	<CheckBox
+	    android:id="@+id/task_item_checkBox1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/task_item_dis"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:text="@string/task_list_done" />
+
+</RelativeLayout>

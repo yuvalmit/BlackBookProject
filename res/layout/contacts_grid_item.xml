@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dip"
+    android:layout_height="100dip"
+    android:gravity="center_horizontal"
+    android:background="#b6b6b6" >
+
+    <ImageView
+        android:id="@+id/con_ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:contentDescription="@string/contantDes"
+        android:gravity="center_horizontal"
+        android:src="@android:drawable/picture_frame" />
+
+    <TextView
+        android:id="@+id/con_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/con_ImageView"
+        android:gravity="center_horizontal"
+        android:hint="@string/con_hint" />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6b6b6"
+    tools:context=".EditTask" >
+
+    <Button
+        android:id="@+id/edit_task_cancelbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_task_dis"
+        android:layout_marginTop="14dp"
+        android:text="@string/edit_task_cancelbutton" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/edit_task_titlelable"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edit_task_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="@string/edit_task_titlehint" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edit_task_title"
+        android:text="@string/edit_task_dislable"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/edit_task_dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:hint="@string/edit_task_dishint" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/edit_task_savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_task_cancelbutton"
+        android:layout_alignBottom="@+id/edit_task_cancelbutton"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/edit_task_cancelbutton"
+        android:text="@string/edit_task_savebutton" />
+
+    <Button
+        android:id="@+id/Edit_task_setalarmbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_task_savebutton"
+        android:layout_alignBottom="@+id/edit_task_savebutton"
+        android:layout_alignParentRight="true"
+        android:text="@string/addTask_DatePicker" />
+
+</RelativeLayout>
